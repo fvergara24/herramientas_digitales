@@ -8,7 +8,7 @@ st.title('Herramientas digitales en español')
 st.title('dataframe')
 
 import pandas as pd
-from bs4 import BeautifulSoup
+import BeautifulSoup
 import requests
 from textblob import TextBlob
 
