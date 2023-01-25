@@ -7,8 +7,6 @@ st.title('Empoweringrace')
 st.title('Herramientas digitales en español')
 st.title('dataframe')
 
-!pip install BeautifulSoup
-
 import pandas as pd
 from bs4 import BeautifulSoup
 import requests
@@ -53,4 +51,3 @@ df = pd.DataFrame(dicc)
 df['Nombres'][0]=df['Nombres'][0].split('.')[0]
 df['Votos']=df['Votos'].astype('int')
 
-st.dataframe(df)
