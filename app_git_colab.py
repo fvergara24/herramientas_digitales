@@ -7,7 +7,7 @@ st.title('Empoweringrace')
 st.title('Herramientas digitales en español')
 st.title('dataframe')
 
-pip install BeautifulSoup
+!pip install BeautifulSoup
 
 import pandas as pd
 from bs4 import BeautifulSoup
