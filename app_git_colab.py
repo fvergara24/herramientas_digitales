@@ -50,3 +50,5 @@ dicc={'Nombres':nombres,'Descripcion':descripcion_español,'Votos':votos}
 df = pd.DataFrame(dicc)
 df['Nombres'][0]=df['Nombres'][0].split('.')[0]
 df['Votos']=df['Votos'].astype('int')
+
+st.dataframe(data=df)
