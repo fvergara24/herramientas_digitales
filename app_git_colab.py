@@ -16,7 +16,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header(df['Nombres'][0])
-   st.header(df['Votos'][0]))
+   st.header(df['Votos'][0])
    
 
 with col2:
