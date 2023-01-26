@@ -11,13 +11,13 @@ df=df.drop(columns='Unnamed: 0',axis=1)
 st.title('Tabla')
 st.dataframe(data=df)
 
-
+imagen1=df['Imagenes_url'][0]+'.jpg'
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header(df['Nombres'][0])
-   st.image(df['Imagenes_url'][0]+'.jpg')
+   st.image(imagen1)
    
 
 with col2:
