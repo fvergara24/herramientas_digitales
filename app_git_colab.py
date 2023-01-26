@@ -15,16 +15,12 @@ st.dataframe(data=df)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header("df[0][0]")
+   st.header(df['Nombres'][0])
    
 
 with col2:
-   st.header("df[0][1]]")
+   st.header([df['Nombres'][1]])
    
 
 with col3:
-   st.header(df[0][2])
-   
-
-
-
+   st.header([df['Nombres'][2])
