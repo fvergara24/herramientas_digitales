@@ -22,8 +22,8 @@ with col1:
 
 with col2:
    st.header(df['Nombres'][1])
-   
+   st.image(df['Imagenes_url'][1]+'.jpg')
 
 with col3:
    st.header(df['Nombres'][2])
-   
+   st.image(df['Imagenes_url'][3]+'.jpg')
