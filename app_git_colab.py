@@ -12,11 +12,12 @@ st.title('Tabla')
 st.dataframe(data=df)
 
 
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header(df['Nombres'][0])
-   st.image("df['Imagenes_url][0]+'.jpg'")
+   st.image(Imagenes_url][0]+'.jpg')
    
 
 with col2:
