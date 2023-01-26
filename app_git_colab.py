@@ -10,3 +10,21 @@ df=pd.read_csv('datos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 st.title('Tabla')
 st.dataframe(data=df)
+
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+   st.header("df[0][0]")
+   
+
+with col2:
+   st.header("df[0][1]]")
+   
+
+with col3:
+   st.header(df[0][2])
+   
+
+
+
