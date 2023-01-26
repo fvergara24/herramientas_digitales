@@ -16,13 +16,12 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header(df['Nombres'][0])
-   st.title('Votos' df['Votos'][0])
    
 
 with col2:
    st.header(df['Nombres'][1])
-   st.title(df['Votos'][1])
+   
 
 with col3:
    st.header(df['Nombres'][2])
-   st.title(df['Votos'][2])
+   
