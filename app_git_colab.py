@@ -19,7 +19,7 @@ with col1:
    
 
 with col2:
-   st.header(df['Nombres'][1]])
+   st.header(df['Nombres'][1])
    
 
 with col3:
