@@ -9,7 +9,7 @@ st.title('Herramientas digitales en español')
 df=pd.read_csv('datos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 st.title('Tabla')
-st.dataframe(data=df)
+
 
 imagen1=df['Imagenes_url'][0]+'.jpg'
 
