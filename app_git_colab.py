@@ -16,7 +16,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
    st.header(df.iloc[0][0])
    st.image(df.iloc[0][3])
-   st.title(df.iloc[0][2]])
+   st.title(df.iloc[0][2])
    
 
 with col2:
