@@ -14,7 +14,7 @@ df=df.drop(columns='Unnamed: 0',axis=1)
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header(df.iloc[0][0])
+   st.header(df.iloc[0][0], caption=df.iloc[0][1])
    #st.image(df.iloc[0][3], caption=df.iloc[0][3], use_column_width='auto')
    
 with col2:
