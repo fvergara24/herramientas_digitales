@@ -11,7 +11,7 @@ df=df.drop(columns='Unnamed: 0',axis=1)
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-col1, col2= st.columns(2))
+col1, col2= st.columns(2)
 
 with col1:
    st.header(df.iloc[0][0])
