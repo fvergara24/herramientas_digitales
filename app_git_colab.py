@@ -20,8 +20,8 @@ with col1:
 
 with col2:
    st.header(df.iloc[1][0])
-   st.image(df.iloc[1][3], caption=df.iloc[1][2]))
+   st.image(df.iloc[1][3], caption=df.iloc[1][2])
 
 with col3:
    st.header(df.iloc[2][0])
-   st.image(df.iloc[2][3], caption=df.iloc[2][2]))
+   st.image(df.iloc[2][3], caption=df.iloc[2][2])
