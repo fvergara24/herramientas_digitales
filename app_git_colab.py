@@ -9,6 +9,7 @@ st.title('Herramientas digitales en español')
 df=pd.read_csv('datos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 
+
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
 #col1, col2= st.columns(2)
@@ -23,4 +24,10 @@ df=df.drop(columns='Unnamed: 0',axis=1)
    #st.caption(df.iloc[1][1])
    #st.image(df.iloc[1][3], caption=df.iloc[1][2])
 
+hide_table_row_index = """
+            <style>
+            thead tr th:first-child {display:none}
+            tbody th {display:none}
+            </style>
+            """
 st.table(df)
