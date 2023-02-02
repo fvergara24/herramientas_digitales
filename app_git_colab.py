@@ -17,7 +17,7 @@ with col1:
    st.header(df.iloc[0][0])
    st.image(df.iloc[0][3], caption=df.iloc[0][3])
    
-   st.header(df.iloc[3][0])
+   #st.header(df.iloc[3][0])
    #st.image(df.iloc[3][3], caption=df.iloc[3][2])
       
 
