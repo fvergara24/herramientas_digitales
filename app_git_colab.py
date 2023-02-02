@@ -24,3 +24,5 @@ with col2:
    #st.image(df.iloc[1][3], caption=df.iloc[1][2])
 
 st.dataframe(data=df)
+
+st.table(df)
