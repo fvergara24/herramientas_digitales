@@ -9,22 +9,21 @@ st.title('Herramientas digitales en español')
 df=pd.read_csv('datos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 
+df_columna1=df.iloc[:round(len(df)/2),:]
+df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-col1, col2, col3= st.columns(3)
+col1, col2= st.columns(2)
 
 with col1:
-   st.header(df.iloc[0][0])
-   st.caption(df.iloc[0][1])
-   #st.image(df.iloc[0][3], caption=df.iloc[0][3], use_column_width='auto')
-   
+   for i in range(df_columna1):
+    st.header(df_columna1.iloc[i][0])
+    st.caption(df_columna1.iloc[i][1])
+    #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
+    
 with col2:
-   st.header(df.iloc[1][0])
-   st.caption(df.iloc[1][1])
-   #st.image(df.iloc[1][3], caption=df.iloc[1][2])
-
-with col3:
-   st.header(df.iloc[2][0])
-   st.caption(df.iloc[2][1])
-   #st.image(df.iloc[1][3], caption=df.iloc[1][2])
+   for i in range(df_columna2):
+    st.header(df_columna2.iloc[i][0])
+    st.caption(df_columna2.iloc[i][1])
+    #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
