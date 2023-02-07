@@ -18,7 +18,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 if st.button('Página'):
     js = "window.open('https://www.streamlit.io/')"  # New tab or window
-    js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+    #js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
     html = '<img src onerror="{}">'.format(js)
     div = Div(text=html)
     st.bokeh_chart(div)
