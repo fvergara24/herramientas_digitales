@@ -21,7 +21,7 @@ with col1:
    for i in range(len(df_columna1)):
     
     #st.button(df_columna1.iloc[i][0])
-    st.write("[df_columna1.iloc[i][0]](%s)" % df_columna1.iloc[i][2])
+    st.write("df_columna1.iloc[i][0] [](%s)" % df_columna1.iloc[i][2])
     
     #st.write(df_columna1.iloc[i][2])
     st.caption(df_columna1.iloc[i][1])
