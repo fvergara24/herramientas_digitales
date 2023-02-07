@@ -1,8 +1,7 @@
 
 import streamlit as st
 import pandas as pd
-import webbrowser
-from bokeh.models.widgets import Div
+import Div
 
 st.set_page_config(page_title='Herramientas digitales en español')
 st.title('Empoweringrace')
