@@ -26,7 +26,7 @@ with col1:
     html = '<img src onerror="{}">'.format(js)
     div = Div(text=html)
     st.bokeh_chart(div)
-    st.button(df_columna1.iloc[i][0], help=df_columna1.iloc[i][2])
+    #st.button(df_columna1.iloc[i][0], help=df_columna1.iloc[i][2])
     st.caption(df_columna1.iloc[i][1])
     #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
     
