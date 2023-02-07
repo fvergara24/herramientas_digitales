@@ -25,6 +25,7 @@ with col1:
     
 with col2:
    for i in range(len(df_columna2)):
+    st.button(df_columna2.iloc[i][0], help=df_columna1.iloc[i][2])
     st.header(df_columna2.iloc[i][0])
     st.caption(df_columna2.iloc[i][1])
     #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
