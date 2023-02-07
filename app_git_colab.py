@@ -4,8 +4,10 @@ import pandas as pd
 
 st.set_page_config(page_title='Herramientas digitales en español')
 st.title('Empoweringrace')
-
+st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
+
+
 df=pd.read_csv('datos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 
@@ -13,7 +15,6 @@ df_columna1=df.iloc[:round(len(df)/2),:]
 df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
-
 
 col1, col2= st.columns(2)
 
