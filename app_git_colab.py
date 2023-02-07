@@ -1,6 +1,7 @@
 
 import streamlit as st
 import pandas as pd
+import webbrowser
 
 st.set_page_config(page_title='Herramientas digitales en español')
 st.title('Empoweringrace')
@@ -18,8 +19,9 @@ col1, col2= st.columns(2)
 
 with col1:
    for i in range(len(df_columna1)):
-    st.button(df_columna1.iloc[i][0], help=df_columna1.iloc[i][2])
-    st.markdown(df_columna1.iloc[i][2]), unsafe_allow_html=True)
+    if st.button(df_columna1.iloc[i][0]):
+      webbrowser.open_new_tab(df_columna1.iloc[i][2])
+    #st.button(df_columna1.iloc[i][0], help=df_columna1.iloc[i][2])
     st.caption(df_columna1.iloc[i][1])
     #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
     
