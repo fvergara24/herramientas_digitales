@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title='Herramientas digitales en español')
-st.title('Empoweringrace')
 st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
 
