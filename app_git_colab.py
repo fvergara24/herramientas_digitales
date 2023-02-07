@@ -20,8 +20,8 @@ col1, col2= st.columns(2)
 with col1:
    for i in range(len(df_columna1)):
     
-    st.button(df_columna1.iloc[i][0])
-    st.button(st.write("check out this [link](%s)" % df_columna1.iloc[i][2]))
+    st.button(df_columna1.iloc[i][0], )
+    st.write("[Página](%s)" % df_columna1.iloc[i][2])
     
     #st.write(df_columna1.iloc[i][2])
     st.caption(df_columna1.iloc[i][1])
