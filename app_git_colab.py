@@ -15,6 +15,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
+st.text_input('Buscar aplicaciones')
 col1, col2= st.columns(2)
 
 with col1:
