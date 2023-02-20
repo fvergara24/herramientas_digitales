@@ -38,12 +38,12 @@ df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
 st.table(df_busqueda)
 
-col3 = st.columns(1)
 
-with col3:
-   for i in range(len(df_busqueda)):
-    st.write(f"{[df_busqueda.iloc[i][0]]}(%s)" % df_busqueda.iloc[i][2])
-    st.caption(df_busqueda.iloc[i][1])
-    #st.image(df_busqueda.iloc[0][3], caption=df_busqueda.iloc[0][3], use_column_width='auto')
+
+
+for i in range(len(df_busqueda)):
+  st.write(f"{[df_busqueda.iloc[i][0]]}(%s)" % df_busqueda.iloc[i][2])
+  st.caption(df_busqueda.iloc[i][1])
+  #st.image(df_busqueda.iloc[0][3], caption=df_busqueda.iloc[0][3], use_column_width='auto')
 
 
