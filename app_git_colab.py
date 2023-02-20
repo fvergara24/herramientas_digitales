@@ -38,9 +38,9 @@ df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
 st.table(df_busqueda)
 
-col1= st.columns(1)
+col3 = st.columns(1)
 
-with col1:
+with col3:
    for i in range(len(df_busqueda)):
     st.write(f"{[df_busqueda.iloc[i][0]]}(%s)" % df_busqueda.iloc[i][2])
     st.caption(df_busqueda.iloc[i][1])
