@@ -31,3 +31,8 @@ with col2:
     st.write(f"{[df_columna2.iloc[i][0]]}(%s)" % df_columna2.iloc[i][2])
     st.caption(df_columna2.iloc[i][1])
     #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
+
+
+mask = df['Descripcion'].str.contains('text')
+df[mask]
+st.table(df[mask])
