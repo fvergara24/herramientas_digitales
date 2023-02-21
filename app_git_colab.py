@@ -17,20 +17,18 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
 
-tab1, tab2, tab3 = st.tabs(["3D", "", "Owl"])
+tab1, tab2, tab3 = st.tabs([,"3D", "nada", "Owl"])
 
-with tab1:
-   st.header("df_3d")
-   for i in range(len(df_3d)):
-      st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
-      st.caption(df_3d.iloc[i][1])
+if tab1:
+  with tab1:
 
-with tab2:
-   st.header("A dog")
-   
+elif tab2:
+  with tab2:
+    st.header("df_3d")
+    for i in range(len(df_3d)):
+        st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
+        st.caption(df_3d.iloc[i][1])
 
-with tab3:
-   st.header("An owl")
    
     
 
