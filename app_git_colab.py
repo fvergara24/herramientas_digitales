@@ -21,7 +21,7 @@ cate_opciones = st.multiselect(
     ['3D', 'Art', 'Audio', 'Avatars'],
     ['Yellow', 'Red'])
 
-st.write('You selected:', options)
+st.write('You selected:', cate_opciones)
 
 
 # for i in range(len(df_3d)):
