@@ -9,6 +9,7 @@ st.title('Herramientas digitales en español')
 
 df=pd.read_csv('datos_todos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
+df_3d=pd.read_csv('3D.csv')
 
 df_columna1=df.iloc[:round(len(df)/2),:]
 df_columna2=df.iloc[round(len(df)/2):,:]
@@ -16,19 +17,21 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
 
-tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+tab1, tab2, tab3 = st.tabs(["3D", "", "Owl"])
 
 with tab1:
-   st.header("A cat")
-   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+   st.header("df_3d")
+   for i in range(len(df_3d)):
+      st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
+      st.caption(df_3d.iloc[i][1])
 
 with tab2:
    st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+   
 
 with tab3:
    st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+   
     
 
 
