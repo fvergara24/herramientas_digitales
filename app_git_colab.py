@@ -16,8 +16,12 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
+cate_opciones = st.multiselect(
+    'Elige una categía',
+    ['3D', 'Art', 'Audio', 'Avatars'],
+    ['Yellow', 'Red'])
 
-st.multiselect('Categorias')
+st.write('You selected:', options)
 
 
 # for i in range(len(df_3d)):
