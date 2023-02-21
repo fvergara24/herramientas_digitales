@@ -20,6 +20,12 @@ text=st.text_input('Buscar aplicaciones','')
 text = text.lower()
 if text:
   mask = df['Descripcion'].str.contains(text)
+  contador=0
+  for i in range(len(mask)): 
+    if mask.loc[i]==False:
+      contador+=1
+  if contador==len(mask):
+    st.write('No hay coincidencias')
   df_busqueda = df[mask]
   df_busqueda = df_busqueda.reset_index(drop=True)
   for j in range(len(df_busqueda)):
@@ -28,14 +34,6 @@ if text:
     #st.image(df_busqueda.iloc[j][3], caption=df_busqueda.iloc[j][3], use_column_width='auto')
 
 else:
-  mask = df['Descripcion'].str.contains(text)
-  contador=0
-  for i in range(len(mask)): 
-    if mask.loc[i]==False:
-      contador+=1
-  if contador==len(mask):
-    st.write('No hay coincidencias')
-  
   col1, col2= st.columns(2)
 
   with col1:
