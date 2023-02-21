@@ -17,6 +17,10 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 text=st.text_input('Buscar aplicaciones','')
 st.markdown(f'buscaste {text}')
+if text:
+  st.write('pasa')
+
+
 
 #col1, col2= st.columns(2)
 
@@ -36,9 +40,6 @@ st.markdown(f'buscaste {text}')
 mask = df['Descripcion'].str.contains(text)
 df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
-
-
-
 for j in range(len(df_busqueda)):
   st.write(f"{[df_busqueda.iloc[j][0]]}(%s)" % df_busqueda.iloc[j][2])
   st.caption(df_busqueda.iloc[j][1])
