@@ -16,17 +16,19 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
 
+tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
 
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
+with tab1:
+   st.header("A cat")
+   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
 
-# Using "with" notation
-with st.sidebar:
-    add_radio = st.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
+with tab2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+
+with tab3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     )
 
 
