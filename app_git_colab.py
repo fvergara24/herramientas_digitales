@@ -7,7 +7,7 @@ st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
 
 
-df=pd.read_csv('datos.csv')
+df=pd.read_csv('datos_todos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 
 df_columna1=df.iloc[:round(len(df)/2),:]
