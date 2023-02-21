@@ -39,9 +39,9 @@ df_busqueda = df_busqueda.reset_index(drop=True)
 
 
 
-#for j in range(len(df_busqueda)):
-#  st.write(f"{[df_busqueda.iloc[j][0]]}(%s)" % df_busqueda.iloc[j][2])
-#  st.caption(df_busqueda.iloc[j][1])
+for j in range(len(df_busqueda)):
+  st.write(f"{[df_busqueda.iloc[j][0]]}(%s)" % df_busqueda.iloc[j][2])
+  st.caption(df_busqueda.iloc[j][1])
   #st.image(df_busqueda.iloc[j][3], caption=df_busqueda.iloc[j][3], use_column_width='auto')
 
 
