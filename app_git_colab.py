@@ -42,6 +42,7 @@ else:
       #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
 
-
+original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">Original image</p>'
+st.markdown(original_title, unsafe_allow_html=True)
 
 
