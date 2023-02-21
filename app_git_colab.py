@@ -17,7 +17,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
 
-tab1, tab2, tab3 = st.tabs([,"3D", "nada", "Owl"])
+tab1, tab2, tab3 = st.tabs(["","3D", "nada", "Owl"])
 
 if tab1:
   with tab1:
