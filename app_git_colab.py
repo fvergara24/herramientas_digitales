@@ -16,18 +16,9 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-cate_opciones = st.multiselect(
-    'Elige una categía',
-    ['3D', 'Art', 'Audio', 'Avatars'],
-    ['Yellow', 'Red'])
+cate_opciones = st.multiselect('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
 
 st.write('You selected:', cate_opciones)
-
-
-# for i in range(len(df_3d)):
-#     st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
-#     st.caption(df_3d.iloc[i][1])
-
    
 text=st.text_input('Buscar aplicaciones','')
 #st.markdown(f'buscaste {text}')
