@@ -31,7 +31,9 @@ else:
 
   with col1:
      for i in range(len(df_columna1)):
-      st.write(f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2])
+      original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2]</p>'
+      st.markdown(original_title, unsafe_allow_html=True) 
+      #st.write(f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2])
       st.caption(df_columna1.iloc[i][1])
       #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
       
@@ -42,7 +44,6 @@ else:
       #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
 
-original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">Original image</p>'
-st.markdown(original_title, unsafe_allow_html=True)
+
 
 
