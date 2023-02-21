@@ -20,18 +20,11 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 st.multiselect('Categorias')
 
 
-   # for i in range(len(df_3d)):
-   #     st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
-   #     st.caption(df_3d.iloc[i][1])
+# for i in range(len(df_3d)):
+#     st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
+#     st.caption(df_3d.iloc[i][1])
 
    
-    
-
-
-
-
-
-
 text=st.text_input('Buscar aplicaciones','')
 #st.markdown(f'buscaste {text}')
 text = text.lower()
