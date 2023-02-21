@@ -15,6 +15,25 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
+
+
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
+
+# Using "with" notation
+with st.sidebar:
+    add_radio = st.radio(
+        "Choose a shipping method",
+        ("Standard (5-15 days)", "Express (2-5 days)")
+    )
+
+
+
+
+
+
 text=st.text_input('Buscar aplicaciones','')
 #st.markdown(f'buscaste {text}')
 text = text.lower()
