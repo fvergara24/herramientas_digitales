@@ -15,7 +15,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-text=st.text_input('Buscar aplicaciones')
+text=st.text_input('Buscar aplicaciones','')
 st.markdown(f'buscaste {text}')
 
 #col1, col2= st.columns(2)
@@ -36,7 +36,10 @@ st.markdown(f'buscaste {text}')
 mask = df['Descripcion'].str.contains('text')
 df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
-st.table(df_busqueda)
+
+st.write(text)
+
+
 for j in range(len(df_busqueda)):
   st.write(f"{[df_busqueda.iloc[j][0]]}(%s)" % df_busqueda.iloc[j][2])
   st.caption(df_busqueda.iloc[j][1])
