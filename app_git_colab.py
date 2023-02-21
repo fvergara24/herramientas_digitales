@@ -21,10 +21,10 @@ tab1, tab2, tab3 = st.tabs(["","3D", "nada", "Owl"])
 
 if tab1:
   with tab1:
-
+    
 elif tab2:
   with tab2:
-    st.header("df_3d")
+    st.header("3D")
     for i in range(len(df_3d)):
         st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
         st.caption(df_3d.iloc[i][1])
