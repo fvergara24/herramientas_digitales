@@ -36,9 +36,7 @@ st.markdown(f'buscaste {text}')
 mask = df['Descripcion'].str.contains('text')
 df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
-
-
-
+st.table(df_busqueda)
 for j in range(len(df_busqueda)):
   st.write(f"{[df_busqueda.iloc[j][0]]}(%s)" % df_busqueda.iloc[j][2])
   st.caption(df_busqueda.iloc[j][1])
