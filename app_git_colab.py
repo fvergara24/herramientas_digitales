@@ -17,6 +17,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 text=st.text_input('Buscar aplicaciones','')
 #st.markdown(f'buscaste {text}')
+text = text.lower()
 if text:
   mask = df['Descripcion'].str.contains(text)
   df_busqueda = df[mask]
