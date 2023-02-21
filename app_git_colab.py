@@ -33,7 +33,7 @@ st.markdown(f'buscaste {text}')
 #    #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
 
-mask = df['Descripcion'].str.contains('escribir')
+mask = df['Descripcion'].str.contains(text)
 df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
 
