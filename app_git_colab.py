@@ -18,19 +18,19 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 text=st.text_input('Buscar aplicaciones','')
 st.markdown(f'buscaste {text}')
 
-col1, col2= st.columns(2)
+#col1, col2= st.columns(2)
 
-with col1:
-   for i in range(len(df_columna1)):
-    st.write(f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2])
-    st.caption(df_columna1.iloc[i][1])
-    #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
+#with col1:
+#   for i in range(len(df_columna1)):
+#    st.write(f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2])
+#    st.caption(df_columna1.iloc[i][1])
+#    #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
     
-with col2:
-   for i in range(len(df_columna2)):
-    st.write(f"{[df_columna2.iloc[i][0]]}(%s)" % df_columna2.iloc[i][2])
-    st.caption(df_columna2.iloc[i][1])
-    #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
+#with col2:
+#   for i in range(len(df_columna2)):
+#    st.write(f"{[df_columna2.iloc[i][0]]}(%s)" % df_columna2.iloc[i][2])
+#    st.caption(df_columna2.iloc[i][1])
+#    #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
 
 mask = df['Descripcion'].str.contains('text')
