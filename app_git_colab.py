@@ -37,9 +37,9 @@ mask = df['Descripcion'].str.contains('text')
 df_busqueda = df[mask]
 df_busqueda = df_busqueda.reset_index(drop=True)
 
-for i in range(len(df_busqueda)):
-  st.write(f"{[df_busqueda.iloc[i][0]]}(%s)" % df_busqueda.iloc[i][2])
-  st.caption(df_busqueda.iloc[i][1])
-  #st.image(df_busqueda.iloc[0][3], caption=df_busqueda.iloc[0][3], use_column_width='auto')
+for j in range(len(df_busqueda)):
+  st.write(f"{[df_busqueda.iloc[j][0]]}(%s)" % df_busqueda.iloc[j][2])
+  st.caption(df_busqueda.iloc[j][1])
+  #st.image(df_busqueda.iloc[j][3], caption=df_busqueda.iloc[j][3], use_column_width='auto')
 
 
