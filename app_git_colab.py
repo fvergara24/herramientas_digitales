@@ -16,7 +16,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
 text=st.text_input('Buscar aplicaciones','')
-st.markdown(f'buscaste {text}')
+#st.markdown(f'buscaste {text}')
 if text:
   mask = df['Descripcion'].str.contains(text)
   df_busqueda = df[mask]
