@@ -55,11 +55,16 @@ else:
 #cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
 
 # Using object notation
-add_selectbox = st.sidebar.selectbox("Categorias",["3D", "Arte", "Audio","Asistente-Código"])
+cate_opciones=["3D", "Arte", "Audio","Asistente-Código"])
 
-# Using "with" notation
-with st.sidebar:
-    add_radio = st.radio( "Choose a shipping method", ("Standard (5-15 days)", "Express (2-5 days)"))
+choice = st.sidebar.selectbox("Categorias",cate_opciones)
+
+if choice=='3D':
+  st.subheader('3D')
+
+elif choice=='Arte':
+  st.subheader('Arte')
+
 
 
 
