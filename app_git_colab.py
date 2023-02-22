@@ -64,14 +64,11 @@ with st.sidebar:
   choice = st.selectbox("",cate_opciones)
 
   if choice=='3D':
-    st.subheader('3D')
     for i in range(len(df_3d)):
           st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
           st.caption(df_3d.iloc[i][1])
           
-
   elif choice=='Arte':
-    st.header('Arte')
     for i in range(len(art)):
           st.write(f"{[art.iloc[i][0]]}(%s)" % art.iloc[i][2])
           st.caption(art.iloc[i][1])
