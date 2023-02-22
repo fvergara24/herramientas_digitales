@@ -69,6 +69,9 @@ def funcion_categoria(nombre):
 
 funcion_categoria(d3)
 
+st.table(d3)
+
+
 with st.sidebar:
   st.header('Categorias')
   cate_opciones=["3D", "Arte", "Audio","Asistente de Código"]
