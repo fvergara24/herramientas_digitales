@@ -52,10 +52,8 @@ else:
         st.caption(df_columna2.iloc[i][1])
         #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
-#cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
-
 # Using object notation
-cate_opciones=["3D", "Arte", "Audio","Asistente-Código"])
+cate_opciones=["3D", "Arte", "Audio","Asistente-Código"]
 
 choice = st.sidebar.selectbox("Categorias",cate_opciones)
 
