@@ -79,7 +79,7 @@ with st.sidebar:
           st.write(f"{[Audio.iloc[i][0]]}(%s)" % Audio.iloc[i][2])
           st.caption(Audio.iloc[i][1])
 
-   elif choice=='Asistente de código':
+   elif choice=='Asistente de Código':
     code_assistant=pd.read_csv('code_assistant.csv')
     code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(code_assistant)):
