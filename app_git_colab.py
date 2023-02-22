@@ -16,7 +16,7 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
+#cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
   
 
 text=st.text_input('Buscar aplicaciones','')
