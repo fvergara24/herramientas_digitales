@@ -55,7 +55,7 @@ else:
 #cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
 
 # Using object notation
-add_selectbox = st.sidebar("Categorias",("3D", "Arte", "Audio","Asistente-Código"))
+add_selectbox = st.sidebar.selectbox("Categorias",["3D", "Arte", "Audio","Asistente-Código"])
 
 # Using "with" notation
 with st.sidebar:
