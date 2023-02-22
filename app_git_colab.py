@@ -53,6 +53,14 @@ else:
 
 
 # CATEGORIAS
+df_3d=pd.read_csv('3D.csv')
+    df_3d=df_3d.drop(columns='Unnamed: 0',axis=1)
+art=pd.read_csv('art.csv')
+    art=art.drop(columns='Unnamed: 0',axis=1)
+Audio=pd.read_csv('audio.csv')
+    Audio=Audio.drop(columns='Unnamed: 0',axis=1)
+code_assistant=pd.read_csv('code_assistant.csv')
+    code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
 
 with st.sidebar:
   st.header('Categorias')
@@ -60,29 +68,21 @@ with st.sidebar:
   choice = st.selectbox("",cate_opciones)
 
   if choice=='3D':
-    df_3d=pd.read_csv('3D.csv')
-    df_3d=df_3d.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(df_3d)):
           st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
           st.caption(df_3d.iloc[i][1])
           
   elif choice=='Arte':
-    art=pd.read_csv('art.csv')
-    art=art.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(art)):
           st.write(f"{[art.iloc[i][0]]}(%s)" % art.iloc[i][2])
           st.caption(art.iloc[i][1])
 
   elif choice=='Audio':
-    Audio=pd.read_csv('audio.csv')
-    Audio=Audio.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(Audio)):
           st.write(f"{[Audio.iloc[i][0]]}(%s)" % Audio.iloc[i][2])
           st.caption(Audio.iloc[i][1])
 
   elif choice=='Asistente de Código':
-    code_assistant=pd.read_csv('code_assistant.csv')
-    code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(code_assistant)):
           st.write(f"{[code_assistant.iloc[i][0]]}(%s)" % code_assistant.iloc[i][2])
           st.caption(code_assistant.iloc[i][1])            
