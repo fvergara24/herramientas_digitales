@@ -62,7 +62,7 @@ else:
 #code_assistant=pd.read_csv('code_assistant.csv')
 #code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
 
-df funcion_categoria(nombre):
+def funcion_categoria(nombre):
   nombre=pd.read_csv(f{nombre.csv})
   nombre=nombre.drop(columns='Unnamed: 0',axis=1)
   return nombre
