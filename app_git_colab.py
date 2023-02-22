@@ -13,7 +13,8 @@ df=df.drop(columns='Unnamed: 0',axis=1)
 df_3d=pd.read_csv('3D.csv')
 df_3d=df_3d.drop(columns='Unnamed: 0',axis=1)
 
-
+art=pd.read_csv('art.csv')
+art=art.drop(columns='Unnamed: 0',axis=1)
 
 df_columna1=df.iloc[:round(len(df)/2),:]
 df_columna2=df.iloc[round(len(df)/2):,:]
@@ -68,9 +69,11 @@ if choice=='3D':
         #st.image(df_3d.iloc[1][3], caption=df_3d.iloc[1][2])
 
 elif choice=='Arte':
-  st.subheader('Arte')
-
-
+  st.header('3D')
+  for i in range(len(art)):
+        st.write(f"{[art.iloc[i][0]]}(%s)" % art.iloc[i][2])
+        st.caption(art.iloc[i][1])
+        #st.image(df_3d.iloc[1][3], caption=df_3d.iloc[1][2])
 
 
 
