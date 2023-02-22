@@ -16,14 +16,13 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-cate_opciones = st.multiselect('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
+cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
   
+
 text=st.text_input('Buscar aplicaciones','')
-#st.markdown(f'buscaste {text}')
 text = text.lower()
-if st.write('You selected:', cate_opciones):
-  st.write('You selected:', cate_opciones)
-  if text:
+
+if text:
     mask = df['Descripcion'].str.contains(text)
     contador=0
     for i in range(len(mask)): 
@@ -38,7 +37,7 @@ if st.write('You selected:', cate_opciones):
       st.caption(df_busqueda.iloc[j][1])
       #st.image(df_busqueda.iloc[j][3], caption=df_busqueda.iloc[j][3], use_column_width='auto')
 
-  else:
+else:
     col1, col2= st.columns(2)
 
     with col1:
