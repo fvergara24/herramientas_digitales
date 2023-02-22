@@ -58,6 +58,7 @@ cate_opciones=["3D", "Arte", "Audio","Asistente de Código"]
 choice = st.sidebar.selectbox("Categorias",cate_opciones)
 
 if choice=='3D':
+  st.header('3D')
   for i in range(len(df_3d)):
         st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
         st.caption(df_3d.iloc[i][1])
