@@ -75,7 +75,6 @@ with st.sidebar:
   choice = st.selectbox("",cate_opciones)
 
   if choice=='3D':
-    if choice=='3D':
     for i in range(len(d3)):
           st.write(f"{[d3.iloc[i][0]]}(%s)" % d3.iloc[i][2])
           st.caption(d3.iloc[i][1])
