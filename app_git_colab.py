@@ -16,8 +16,6 @@ df_columna2=df.iloc[round(len(df)/2):,:]
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
-#cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
-  
 
 text=st.text_input('Buscar aplicaciones','')
 text = text.lower()
@@ -54,9 +52,10 @@ else:
         st.caption(df_columna2.iloc[i][1])
         #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
+#cate_opciones = st.sidebar('Elige una categía',['3D', 'Art', 'Audio', 'Avatars'])
 
 # Using object notation
-add_selectbox = st.sidebar.selectbox("Categorias",("3D", "Arte", "Audio","Asistente-Código"))
+add_selectbox = st.sidebar("Categorias",("3D", "Arte", "Audio","Asistente-Código"))
 
 # Using "with" notation
 with st.sidebar:
