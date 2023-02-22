@@ -63,9 +63,9 @@ else:
 #code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
 
 def funcion_categoria(nombre):
-  nombre=pd.read_csv(f{'nombre.csv'})
-  nombre=nombre.drop(columns='Unnamed: 0',axis=1)
-  return nombre
+  nom_bre=pd.read_csv(f{"nombre.csv"})
+  nom_bre=nom_bre.drop(columns='Unnamed: 0',axis=1)
+  return nom_bre
 
 funcion_categoria(d3)
 
