@@ -59,8 +59,8 @@ else:
 # Using object notation
 
 with st.sidebar:
+  st.header('Categorias')
   cate_opciones=["3D", "Arte", "Audio","Asistente de Código"]
-
   choice = st.selectbox("Categorias",cate_opciones)
 
   if choice=='3D':
