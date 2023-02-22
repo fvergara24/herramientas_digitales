@@ -56,10 +56,7 @@ else:
 
 
 # Using object notation
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
+add_selectbox = st.sidebar.selectbox("Categorias",("Email", "Home phone", "Mobile phone"))
 
 # Using "with" notation
 with st.sidebar:
