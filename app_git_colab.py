@@ -56,14 +56,11 @@ else:
 
 
 # Using object notation
-add_selectbox = st.sidebar.selectbox("Categorias",("Email", "Home phone", "Mobile phone"))
+add_selectbox = st.sidebar.selectbox("Categorias",("3D", "Arte", "Audio","Asistente-Código"))
 
 # Using "with" notation
 with st.sidebar:
-    add_radio = st.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
-    )
+    add_radio = st.radio( "Choose a shipping method", ("Standard (5-15 days)", "Express (2-5 days)"))
 
 
 
