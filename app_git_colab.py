@@ -53,14 +53,21 @@ else:
 
 
 # CATEGORIAS
-df_3d=pd.read_csv('3D.csv')
-df_3d=df_3d.drop(columns='Unnamed: 0',axis=1)
-art=pd.read_csv('art.csv')
-art=art.drop(columns='Unnamed: 0',axis=1)
-Audio=pd.read_csv('audio.csv')
-Audio=Audio.drop(columns='Unnamed: 0',axis=1)
-code_assistant=pd.read_csv('code_assistant.csv')
-code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
+#df_3d=pd.read_csv('3D.csv')
+#df_3d=df_3d.drop(columns='Unnamed: 0',axis=1)
+#art=pd.read_csv('art.csv')
+#art=art.drop(columns='Unnamed: 0',axis=1)
+#Audio=pd.read_csv('audio.csv')
+#Audio=Audio.drop(columns='Unnamed: 0',axis=1)
+#code_assistant=pd.read_csv('code_assistant.csv')
+#code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
+
+df dataframe(nombre):
+  nombre=pd.read_csv(f{nombre.csv})
+  nombre=nombre.drop(columns='Unnamed: 0',axis=1)
+  return nombre
+
+dataframe(d3)
 
 with st.sidebar:
   st.header('Categorias')
@@ -68,9 +75,15 @@ with st.sidebar:
   choice = st.selectbox("",cate_opciones)
 
   if choice=='3D':
-    for i in range(len(df_3d)):
-          st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
-          st.caption(df_3d.iloc[i][1])
+    if choice=='3D':
+    for i in range(len(d3)):
+          st.write(f"{[d3.iloc[i][0]]}(%s)" % d3.iloc[i][2])
+          st.caption(d3.iloc[i][1])
+
+    
+    #for i in range(len(df_3d)):
+    #      st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
+    #      st.caption(df_3d.iloc[i][1])
           
   elif choice=='Arte':
     for i in range(len(art)):
