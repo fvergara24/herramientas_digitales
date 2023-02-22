@@ -62,12 +62,12 @@ else:
 #code_assistant=pd.read_csv('code_assistant.csv')
 #code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
 
-df dataframe(nombre):
+df df_categoria(nombre):
   nombre=pd.read_csv(f{nombre.csv})
   nombre=nombre.drop(columns='Unnamed: 0',axis=1)
   return nombre
 
-dataframe(d3)
+df_categoria(d3)
 
 with st.sidebar:
   st.header('Categorias')
