@@ -53,8 +53,8 @@ else:
 
 
 # CATEGORIAS
-#df_3d=pd.read_csv('3D.csv')
-#df_3d=df_3d.drop(columns='Unnamed: 0',axis=1)
+d3=pd.read_csv('d3.csv')
+d3=d3.drop(columns='Unnamed: 0',axis=1)
 art=pd.read_csv('art.csv')
 art=art.drop(columns='Unnamed: 0',axis=1)
 Audio=pd.read_csv('audio.csv')
@@ -62,14 +62,14 @@ Audio=Audio.drop(columns='Unnamed: 0',axis=1)
 code_assistant=pd.read_csv('code_assistant.csv')
 code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
 
-def funcion_categoria(nombre):
-  nombre=pd.read_csv(f"{nombre.csv}")
-  nombre=nombre.drop(columns='Unnamed: 0',axis=1)
-  return nombre
+#def funcion_categoria(nombre):
+#  nombre=pd.read_csv(f"{nombre.csv}")
+#  nombre=nombre.drop(columns='Unnamed: 0',axis=1)
+#  return nombre
 
-funcion_categoria(d3)
+#funcion_categoria(d3)
 
-st.table(d3)
+#st.table(d3)
 
 
 with st.sidebar:
