@@ -51,6 +51,7 @@ else:
         st.caption(df_columna2.iloc[i][1])
         #st.image(df_columna2.iloc[1][3], caption=df_columna2.iloc[1][2])
 
+
 # CATEGORIAS
 
 with st.sidebar:
@@ -72,14 +73,14 @@ with st.sidebar:
           st.write(f"{[art.iloc[i][0]]}(%s)" % art.iloc[i][2])
           st.caption(art.iloc[i][1])
 
-   elif choice=='Audio':
+  elif choice=='Audio':
     Audio=pd.read_csv('audio.csv')
     Audio=Audio.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(Audio)):
           st.write(f"{[Audio.iloc[i][0]]}(%s)" % Audio.iloc[i][2])
           st.caption(Audio.iloc[i][1])
 
-   elif choice=='Asistente de Código':
+  elif choice=='Asistente de Código':
     code_assistant=pd.read_csv('code_assistant.csv')
     code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
     for i in range(len(code_assistant)):
