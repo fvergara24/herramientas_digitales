@@ -7,7 +7,7 @@ st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
 
 
-st.image("flecha.jpg")
+st.image("flecha.jpg", width=20, clamp=50)
 
 
 
