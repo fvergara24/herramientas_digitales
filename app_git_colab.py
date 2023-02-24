@@ -5,12 +5,9 @@ import pandas as pd
 
 
 st.set_page_config(page_title='Herramientas digitales en español', page_icon='favicon.jpg')
-st.write('<- Categorias')
+st.write('↖ Categorias')
 st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
-
-
-st.image("flecha.jpg", width=40) #, clamp=50)
 
 df=pd.read_csv('datos_todos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
