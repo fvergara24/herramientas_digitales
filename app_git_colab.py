@@ -2,10 +2,12 @@
 import streamlit as st
 import pandas as pd
 
+st.write('<- Categorias')
+
 st.set_page_config(page_title='Herramientas digitales en español', page_icon='favicon.jpg')
 st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
-st.write('<- Categorias')
+
 
 st.image("flecha.jpg", width=40) #, clamp=50)
 
