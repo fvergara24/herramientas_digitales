@@ -7,6 +7,10 @@ st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
 
 
+st.image("https://es.lovepik.com/images/png-loop-de-loop.html")
+
+
+
 df=pd.read_csv('datos_todos.csv')
 df=df.drop(columns='Unnamed: 0',axis=1)
 
@@ -101,6 +105,4 @@ with st.sidebar:
     for i in range(len(code_assistant)):
           st.write(f"{[code_assistant.iloc[i][0]]}(%s)" % code_assistant.iloc[i][2])
           st.caption(code_assistant.iloc[i][1])            
-
-
 
