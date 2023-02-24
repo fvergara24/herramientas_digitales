@@ -7,7 +7,7 @@ st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
 
 
-st.image("https://es.lovepik.com/images/png-loop-de-loop.html")
+st.image("flecha.jpg")
 
 
 
