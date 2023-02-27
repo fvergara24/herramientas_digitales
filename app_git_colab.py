@@ -76,7 +76,7 @@ def leer_categorias(nombre):
   nombre=a.drop(columns='Unnamed: 0', axis=1)
   return nombre
 
-leer_categorias(education_asistant)
+#leer_categorias(education_asistant)
 
 
 with st.sidebar:
@@ -138,8 +138,8 @@ with st.sidebar:
           st.write(f"{[e_commerce.iloc[i][0]]}(%s)" % e_commerce.iloc[i][2])
           st.caption(e_commerce.iloc[i][1])         
 
-  elif choice=='Educación':
-    for i in range(len(education_asistant)):
-          st.write(f"{[education_asistant.iloc[i][0]]}(%s)" % education_asistant.iloc[i][2])
-          st.caption(education_asistant.iloc[i][1])  
+#  elif choice=='Educación':
+#    for i in range(len(education_asistant)):
+#          st.write(f"{[education_asistant.iloc[i][0]]}(%s)" % education_asistant.iloc[i][2])
+#          st.caption(education_asistant.iloc[i][1])  
 
