@@ -83,7 +83,7 @@ with st.sidebar:
                 "Redacción",
                 "Soporte al Cliente",
                 "Asistente de Diseño",
-                "Herramientas de Deserrollardor",
+                "Herramientas de Desarrollador",
                 "Comercio Electrónico",
                   ]
   choice = st.selectbox("",cate_opciones)
@@ -123,7 +123,7 @@ with st.sidebar:
           st.write(f"{[design_assitant.iloc[i][0]]}(%s)" % design_assitant.iloc[i][2])
           st.caption(design_assitant.iloc[i][1]) 
 
-  elif choice=='Herramientas de Diseño':
+  elif choice=='Herramientas de Desarrollador':
     for i in range(len(developer_tools)):
           st.write(f"{[developer_tools.iloc[i][0]]}(%s)" % developer_tools.iloc[i][2])
           st.caption(developer_tools.iloc[i][1]) 
