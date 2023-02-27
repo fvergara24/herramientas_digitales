@@ -71,7 +71,12 @@ developer_tools=developer_tools.drop(columns='Unnamed: 0',axis=1)
 e_commerce=pd.read_csv('e_commerce.csv')
 e_commerce=e_commerce.drop(columns='Unnamed: 0',axis=1)
 
+def leer_categorias(nombre):
+  a=pd.read_csv(f'{nombre}.csv')
+  nombre=a.drop(columns='Unnamed: 0', axis=1)
+  return nombre
 
+leer_categorias(education_asistant)
 
 
 with st.sidebar:
@@ -85,7 +90,7 @@ with st.sidebar:
                 "Asistente de Diseño",
                 "Herramientas de Desarrollador",
                 "Comercio Electrónico",
-                  ]
+                "Educación"]
   choice = st.selectbox("",cate_opciones)
 
   if choice=='3D':
@@ -133,4 +138,8 @@ with st.sidebar:
           st.write(f"{[e_commerce.iloc[i][0]]}(%s)" % e_commerce.iloc[i][2])
           st.caption(e_commerce.iloc[i][1])         
 
+  elif choice=='Educación':
+    for i in range(len(education_asistant)):
+          st.write(f"{[education_asistant.iloc[i][0]]}(%s)" % education_asistant.iloc[i][2])
+          st.caption(education_asistant.iloc[i][1])  
 
