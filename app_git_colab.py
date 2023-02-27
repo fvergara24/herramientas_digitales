@@ -2,10 +2,8 @@
 import streamlit as st
 import pandas as pd
 
-
-
 st.set_page_config(page_title='Herramientas digitales en español', page_icon='favicon.jpg')
-st.write('↖ Categorias')
+# st.write('↖ Categorias')
 st.image('Logo.jpg')
 st.title('Herramientas digitales en español')
 
@@ -14,7 +12,6 @@ df=df.drop(columns='Unnamed: 0',axis=1)
 
 df_columna1=df.iloc[:round(len(df)/2),:]
 df_columna2=df.iloc[round(len(df)/2):,:]
-
 
 #imagen1=df['Imagenes_url'][0]+'.jpg'
 
@@ -63,31 +60,38 @@ Audio=pd.read_csv('audio.csv')
 Audio=Audio.drop(columns='Unnamed: 0',axis=1)
 code_assistant=pd.read_csv('code_assistant.csv')
 code_assistant=code_assistant.drop(columns='Unnamed: 0',axis=1)
+copywriting=pd.read_csv('copywriting.csv')
+copywriting=copywriting.drop(columns='Unnamed: 0',axis=1)
+customer_support=pd.read_csv('customer_support.csv')
+customer_support=customer_support.drop(columns='Unnamed: 0',axis=1)
+design_assitant=pd.read_csv('design_assitant.csv')
+design_assitant=design_assitant.drop(columns='Unnamed: 0',axis=1)
+developer_tools=pd.read_csv('developer_tools.csv')
+developer_tools=developer_tools.drop(columns='Unnamed: 0',axis=1)
+e_commerce=pd.read_csv('e_commerce.csv')
+e_commerce=e_commerce.drop(columns='Unnamed: 0',axis=1)
 
-#def funcion_categoria(nombre):
-#  nombre=pd.read_csv(f"{nombre.csv}")
-#  nombre=nombre.drop(columns='Unnamed: 0',axis=1)
-#  return nombre
 
-#funcion_categoria(d3)
-
-#st.table(d3)
 
 
 with st.sidebar:
   st.header('Categorias')
-  cate_opciones=["3D", "Arte", "Audio","Asistente de Código"]
+  cate_opciones=["3D", 
+                "Arte", 
+                "Audio",
+                "Asistente de Código",
+                "Redacción",
+                "Soporte al Cliente",
+                "Asistente de Diseño",
+                "Herramientas de Deserrollardor",
+                "Comercio Electrónico",
+                  ]
   choice = st.selectbox("",cate_opciones)
 
   if choice=='3D':
     for i in range(len(d3)):
           st.write(f"{[d3.iloc[i][0]]}(%s)" % d3.iloc[i][2])
           st.caption(d3.iloc[i][1])
-
-    
-    #for i in range(len(df_3d)):
-    #      st.write(f"{[df_3d.iloc[i][0]]}(%s)" % df_3d.iloc[i][2])
-    #      st.caption(df_3d.iloc[i][1])
           
   elif choice=='Arte':
     for i in range(len(art)):
@@ -103,4 +107,30 @@ with st.sidebar:
     for i in range(len(code_assistant)):
           st.write(f"{[code_assistant.iloc[i][0]]}(%s)" % code_assistant.iloc[i][2])
           st.caption(code_assistant.iloc[i][1])            
+
+  elif choice=='Redacción':
+    for i in range(len(copywriting)):
+          st.write(f"{[copywriting.iloc[i][0]]}(%s)" % copywriting.iloc[i][2])
+          st.caption(copywriting.iloc[i][1]) 
+
+  elif choice=='Soporte al Cliente':
+    for i in range(len(customer_support)):
+          st.write(f"{[customer_support.iloc[i][0]]}(%s)" % customer_support.iloc[i][2])
+          st.caption(customer_support.iloc[i][1]) 
+
+  elif choice=='Asistente de Diseño':
+    for i in range(len(design_assitant)):
+          st.write(f"{[design_assitant.iloc[i][0]]}(%s)" % design_assitant.iloc[i][2])
+          st.caption(design_assitant.iloc[i][1]) 
+
+  elif choice=='Herramientas de Diseño':
+    for i in range(len(developer_tools)):
+          st.write(f"{[developer_tools.iloc[i][0]]}(%s)" % developer_tools.iloc[i][2])
+          st.caption(developer_tools.iloc[i][1]) 
+
+  elif choice=='Comercio Electrónico':
+    for i in range(len(e_commerce)):
+          st.write(f"{[e_commerce.iloc[i][0]]}(%s)" % e_commerce.iloc[i][2])
+          st.caption(e_commerce.iloc[i][1])         
+
 
