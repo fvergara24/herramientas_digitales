@@ -143,3 +143,13 @@ with st.sidebar:
 #          st.write(f"{[education_asistant.iloc[i][0]]}(%s)" % education_asistant.iloc[i][2])
 #          st.caption(education_asistant.iloc[i][1])  
 
+
+import st_state_patch
+s = st.GlobalState(key="user metadata")
+if not s:
+    # Initialize it here!
+    s.counter = 0
+s.counter += 1
+st.markdown(f'Page viewed = {s.counter}')
+
+
