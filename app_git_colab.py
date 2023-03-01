@@ -144,12 +144,16 @@ with st.sidebar:
 #          st.caption(education_asistant.iloc[i][1])  
 
 
-import st_state_patch
-s = st.GlobalState(key="user metadata")
-if not s:
-    # Initialize it here!
-    s.counter = 0
-s.counter += 1
-st.markdown(f'Page viewed = {s.counter}')
+@st.cache(allow_output_mutation=True)
+def Pageviews():
+    return []
+
+pageviews=Pageviews()
+pageviews.append('dummy')
+
+try:
+    st.markdown('Page viewed = {} times.'.format(len(pageviews)))
+except ValueError:
+    st.markdown('Page viewed = {} times.'.format(1))
 
 
