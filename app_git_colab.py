@@ -185,7 +185,7 @@ with st.sidebar:
                 "Indicaciones",
                 "Inmobiliaria",
                 "Requerimientos",
-                "Búsqueda,
+                "Búsqueda",
                 "Ventas",
                 "Motor de búsqueda",
                 "SEO",
