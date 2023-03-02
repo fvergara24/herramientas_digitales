@@ -199,8 +199,8 @@ with st.sidebar:
                 "Transcibir",
                 "Edición de video",
                 "Generador de video"]
+  
   choice = st.selectbox("",cate_opciones)
-
   if choice=='3D':
     for i in range(len(d3)):
           st.write(f"{[d3.iloc[i][0]]}(%s)" % d3.iloc[i][2])
@@ -249,7 +249,7 @@ with st.sidebar:
   
 
 
-# VISTAS PÁGINAS
+
 @st.cache(allow_output_mutation=True)
 def Pageviews():
     return []
@@ -262,4 +262,4 @@ try:
 except ValueError:
     st.markdown('Page viewed = {} times.'.format(1))
 
-#########
+
