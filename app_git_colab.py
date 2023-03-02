@@ -246,10 +246,17 @@ with st.sidebar:
           st.write(f"{[e_commerce.iloc[i][0]]}(%s)" % e_commerce.iloc[i][2])
           st.caption(e_commerce.iloc[i][1])         
 
+  elif choice=='Educación':
+    for i in range(len(education_asistant)):
+          st.write(f"{[education_asistant.iloc[i][0]]}(%s)" % education_asistant.iloc[i][2])
+          st.caption(education_asistant.iloc[i][1]) 
   
+  elif choice=='Email':
+    for i in range(len(email_assitant)):
+          st.write(f"{[email_assitant.iloc[i][0]]}(%s)" % email_assitant.iloc[i][2])
+          st.caption(email_assitant.iloc[i][1]) 
 
-
-
+# VISTAS PÁGINAS
 @st.cache(allow_output_mutation=True)
 def Pageviews():
     return []
@@ -262,4 +269,4 @@ try:
 except ValueError:
     st.markdown('Page viewed = {} times.'.format(1))
 
-
+#########
