@@ -118,6 +118,16 @@ presentation=presentation.drop(columns='Unnamed: 0',axis=1)
 productivity=pd.read_csv('productivity.csv')
 productivity=productivity.drop(columns='Unnamed: 0',axis=1)
 
+prompts=pd.read_csv('prompts.csv')
+prompts=prompts.drop(columns='Unnamed: 0',axis=1)
+real_state=pd.read_csv('real_state.csv')
+real_state=real_state.drop(columns='Unnamed: 0',axis=1)
+requirements=pd.read_csv('requirements.csv')
+requirements=requirements.drop(columns='Unnamed: 0',axis=1)
+research=pd.read_csv('research.csv')
+research=research.drop(columns='Unnamed: 0',axis=1)
+resources=pd.read_csv('resources.csv')
+resources=resources.drop(columns='Unnamed: 0',axis=1)
 
 
 
