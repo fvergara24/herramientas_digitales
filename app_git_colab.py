@@ -125,12 +125,6 @@ requirements=pd.read_csv('requirements.csv')
 requirements=requirements.drop(columns='Unnamed: 0',axis=1)
 research=pd.read_csv('research.csv')
 research=research.drop(columns='Unnamed: 0',axis=1)
-resources=pd.read_csv('resources.csv')
-resources=resources.drop(columns='Unnamed: 0',axis=1)
-sales=pd.read_csv('sales.csv')
-sales=sales.drop(columns='Unnamed: 0',axis=1)
-search_engine=pd.read_csv('search_engine.csv')
-search_engine=search_engine.drop(columns='Unnamed: 0',axis=1)
 
 
 
