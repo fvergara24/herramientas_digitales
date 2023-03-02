@@ -280,6 +280,32 @@ with st.sidebar:
           st.write(f"{[fun_tools.iloc[i][0]]}(%s)" % fun_tools.iloc[i][2])
           st.caption(fun_tools.iloc[i][1])
 
+  elif choice=='Juegos':
+    for i in range(len(gaming)):
+          st.write(f"{[gaming.iloc[i][0]]}(%s)" % gaming.iloc[i][2])
+          st.caption(gaming.iloc[i][1])
+
+  elif choice=='Escritura en general':
+    for i in range(len(general_writing)):
+          st.write(f"{[general_writing.iloc[i][0]]}(%s)" % general_writing.iloc[i][2])
+          st.caption(general_writing.iloc[i][1])
+
+  elif choice=='Ideas gift':
+    for i in range(len(gift_ideas)):
+          st.write(f"{[gift_ideas.iloc[i][0]]}(%s)" % gift_ideas.iloc[i][2])
+          st.caption(gift_ideas.iloc[i][1])
+
+  elif choice=='Salud':
+    for i in range(len(healtcare)):
+          st.write(f"{[healtcare.iloc[i][0]]}(%s)" % healtcare.iloc[i][2])
+          st.caption(healtcare.iloc[i][1])
+
+  elif choice=='Recursos humanos':
+    for i in range(len(human_resources)):
+          st.write(f"{[human_resources.iloc[i][0]]}(%s)" % human_resources.iloc[i][2])
+          st.caption(human_resources.iloc[i][1])
+
+
 @st.cache(allow_output_mutation=True)
 def Pageviews():
     return []
