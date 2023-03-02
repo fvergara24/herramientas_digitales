@@ -72,9 +72,21 @@ e_commerce=pd.read_csv('e_commerce.csv')
 e_commerce=e_commerce.drop(columns='Unnamed: 0',axis=1)
 education_asistant=pd.read_csv('education_assitant.csv')
 education_asistant=education_asistant.drop(columns='Unnamed: 0',axis=1)
-
 email_assitant=pd.read_csv('email_assitant.csv')
 email_assitant=email_assitant.drop(columns='Unnamed: 0',axis=1)
+
+experiments=pd.read_csv('experiments.csv')
+experiments=experiments.drop(columns='Unnamed: 0',axis=1)
+
+fashion_assistant=pd.read_csv('fashion_assistant.csv')
+fashion_assistant=fashion_assistant.drop(columns='Unnamed: 0',axis=1)
+
+
+
+
+
+
+
 
 with st.sidebar:
   st.header('Categorias')
