@@ -118,6 +118,8 @@ presentation=presentation.drop(columns='Unnamed: 0',axis=1)
 productivity=pd.read_csv('productivity.csv')
 productivity=productivity.drop(columns='Unnamed: 0',axis=1)
 
+prompts=pd.read_csv('prompts.csv')
+prompts=prompts.drop(columns='Unnamed: 0',axis=1)
 
 
 
