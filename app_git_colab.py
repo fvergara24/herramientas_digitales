@@ -119,14 +119,12 @@ productivity=pd.read_csv('productivity.csv')
 productivity=productivity.drop(columns='Unnamed: 0',axis=1)
 prompts=pd.read_csv('prompts.csv')
 prompts=prompts.drop(columns='Unnamed: 0',axis=1)
-
 real_state=pd.read_csv('real_estate.csv')
 real_state=real_state.drop(columns='Unnamed: 0',axis=1)
 research=pd.read_csv('research.csv')
 research=research.drop(columns='Unnamed: 0',axis=1)
 resources=pd.read_csv('resources.csv')
 resources=resources.drop(columns='Unnamed: 0',axis=1)
-
 sales=pd.read_csv('sales.csv')
 sales=sales.drop(columns='Unnamed: 0',axis=1)
 search_engine=pd.read_csv('search_engine.csv')
@@ -153,11 +151,6 @@ video_editing=pd.read_csv('video_editing.csv')
 video_editing=video_editing.drop(columns='Unnamed: 0',axis=1)
 video_generator=pd.read_csv('video_generator.csv')
 video_generator=video_generator.drop(columns='Unnamed: 0',axis=1)
-
-
-
-
-
 
 
 with st.sidebar:
@@ -266,8 +259,27 @@ with st.sidebar:
     for i in range(len(email_assitant)):
           st.write(f"{[email_assitant.iloc[i][0]]}(%s)" % email_assitant.iloc[i][2])
           st.caption(email_assitant.iloc[i][1]) 
+          
+  elif choice=='Experimentos':
+    for i in range(len(experiments)):
+          st.write(f"{[experiments.iloc[i][0]]}(%s)" % experiments.iloc[i][2])
+          st.caption(experiments.iloc[i][1])
+  
+  elif choice=='Asistente de moda':
+    for i in range(len(fashion_assistant)):
+          st.write(f"{[fashion_assistant.iloc[i][0]]}(%s)" % fashion_assistant.iloc[i][2])
+          st.caption(fashion_assistant.iloc[i][1])
 
-# VISTAS PÁGINAS
+  elif choice=='Finanzas':
+    for i in range(len(finance)):
+          st.write(f"{[finance.iloc[i][0]]}(%s)" % finance.iloc[i][2])
+          st.caption(finance.iloc[i][1])
+
+  elif choice=='Herramientas divertidas':
+    for i in range(len(fun_tools)):
+          st.write(f"{[fun_tools.iloc[i][0]]}(%s)" % fun_tools.iloc[i][2])
+          st.caption(fun_tools.iloc[i][1])
+
 @st.cache(allow_output_mutation=True)
 def Pageviews():
     return []
@@ -280,4 +292,3 @@ try:
 except ValueError:
     st.markdown('Page viewed = {} times.'.format(1))
 
-#########
