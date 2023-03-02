@@ -179,7 +179,7 @@ with st.sidebar:
                 "Asistente de memoria",
                 "Generador de músicia",
                 "Paráfrasis",
-                "Videos personalizados,
+                "Videos personalizados",
                 "Presentaciones",
                 "Productividad",
                 "Indicaciones",
