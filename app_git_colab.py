@@ -181,12 +181,12 @@ with st.sidebar:
                 "Generación del logo",
                 "Sin código",
                 "Asistente de memoria",
-                "Generador de músicia",
+                "Generador de música",
                 "Paráfrasis",
                 "Videos personalizados",
                 "Presentaciones",
                 "Productividad",
-                "Indicaciones",
+                "Indicaciones para Inteligencia Artificial",
                 "Inmobiliaria",
                 "Requerimientos",
                 "Búsqueda",
@@ -305,6 +305,90 @@ with st.sidebar:
           st.write(f"{[human_resources.iloc[i][0]]}(%s)" % human_resources.iloc[i][2])
           st.caption(human_resources.iloc[i][1])
 
+  elif choice=='Edición de imágenes':
+    for i in range(len(image_editing)):
+          st.write(f"{[image_editing.iloc[i][0]]}(%s)" % image_editing.iloc[i][2])
+          st.caption(image_editing.iloc[i][1])
+
+  elif choice=='Generador de imágenes':
+    for i in range(len(image_generator)):
+          st.write(f"{[image_generator.iloc[i][0]]}(%s)" % image_generator.iloc[i][2])
+          st.caption(image_generator.iloc[i][1])
+
+  elif choice=='Asistencia legal':
+    for i in range(len(legal_assistant)):
+          st.write(f"{[legal_assistant.iloc[i][0]]}(%s)" % legal_assistant.iloc[i][2])
+          st.caption(legal_assistant.iloc[i][1])
+
+  elif choice=='Generación del logo':
+    for i in range(len(logo_generator)):
+          st.write(f"{[logo_generator.iloc[i][0]]}(%s)" % logo_generator.iloc[i][2])
+          st.caption(logo_generator.iloc[i][1])
+
+  elif choice=='Sin código':
+    for i in range(len(low_code_no_code)):
+          st.write(f"{[low_code_no_code.iloc[i][0]]}(%s)" % low_code_no_code.iloc[i][2])
+          st.caption(low_code_no_code.iloc[i][1])
+
+   elif choice=='Asistente de memoria':
+    for i in range(len(memory_assistant)):
+          st.write(f"{[memory_assistant.iloc[i][0]]}(%s)" % memory_assistant.iloc[i][2])
+          st.caption(memory_assistant.iloc[i][1])
+
+   elif choice=='Generador de música':
+    for i in range(len(music_generator)):
+          st.write(f"{[music_generator.iloc[i][0]]}(%s)" % music_generator.iloc[i][2])
+          st.caption(music_generator.iloc[i][1])
+
+   elif choice=='Paráfrasis':
+    for i in range(len(paraphraser)):
+          st.write(f"{[paraphraser.iloc[i][0]]}(%s)" % paraphraser.iloc[i][2])
+          st.caption(paraphraser.iloc[i][1])
+
+   elif choice=='Videos personalizados':
+    for i in range(len(personalized_videos)):
+          st.write(f"{[personalized_videos.iloc[i][0]]}(%s)" % personalized_videos.iloc[i][2])
+          st.caption(personalized_videos.iloc[i][1])
+
+   elif choice=='Presentaciones':
+    for i in range(len(presentations)):
+          st.write(f"{[personapresentationslized_videos.iloc[i][0]]}(%s)" % presentations.iloc[i][2])
+          st.caption(presentations.iloc[i][1])
+
+   elif choice=='Productividad':
+    for i in range(len(productivity)):
+          st.write(f"{[productivity.iloc[i][0]]}(%s)" % productivity.iloc[i][2])
+          st.caption(productivity.iloc[i][1])
+
+   elif choice=='Indicaciones para Inteligencia Artificial':
+    for i in range(len(prompts)):
+          st.write(f"{[prompts.iloc[i][0]]}(%s)" % prompts.iloc[i][2])
+          st.caption(prompts.iloc[i][1])
+
+   elif choice=='Inmobiliaria':
+    for i in range(len(real_state)):
+          st.write(f"{[real_state.iloc[i][0]]}(%s)" % real_state.iloc[i][2])
+          st.caption(real_state.iloc[i][1])
+
+   elif choice=='Requerimientos':
+    for i in range(len(requirements)):
+          st.write(f"{[requirements.iloc[i][0]]}(%s)" % requirements.iloc[i][2])
+          st.caption(requirements.iloc[i][1])
+
+   elif choice=='Búsqueda':
+    for i in range(len(research)):
+          st.write(f"{[research.iloc[i][0]]}(%s)" % research.iloc[i][2])
+          st.caption(research.iloc[i][1])
+
+   elif choice=='Ventas':
+    for i in range(len(sales)):
+          st.write(f"{[sales.iloc[i][0]]}(%s)" % sales.iloc[i][2])
+          st.caption(sales.iloc[i][1])
+
+   elif choice=='Motor de búsqueda':
+    for i in range(len(resources)):
+          st.write(f"{[resources.iloc[i][0]]}(%s)" % resources.iloc[i][2])
+          st.caption(resources.iloc[i][1])
 
 @st.cache(allow_output_mutation=True)
 def Pageviews():
