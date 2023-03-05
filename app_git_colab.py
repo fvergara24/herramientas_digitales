@@ -390,6 +390,61 @@ with st.sidebar:
           st.write(f"{[resources.iloc[i][0]]}(%s)" % resources.iloc[i][2])
           st.caption(resources.iloc[i][1])
 
+  elif choice=='SEO':
+    for i in range(len(seo)):
+          st.write(f"{[seo.iloc[i][0]]}(%s)" % seo.iloc[i][2])
+          st.caption(seo.iloc[i][1])
+
+  elif choice=='Redes sociales':
+    for i in range(len(social_media_assistant)):
+          st.write(f"{[social_media_assistant.iloc[i][0]]}(%s)" % social_media_assistant.iloc[i][2])
+          st.caption(social_media_assistant.iloc[i][1])
+
+  elif choice=='Hojas de cálculo':
+    for i in range(len(spreadsheet)):
+          st.write(f"{[spreadsheet.iloc[i][0]]}(%s)" % spreadsheet.iloc[i][2])
+          st.caption(spreadsheet.iloc[i][1])
+
+  elif choice=='SQL':
+    for i in range(len(sql)):
+          st.write(f"{[sql.iloc[i][0]]}(%s)" % sql.iloc[i][2])
+          st.caption(sql.iloc[i][1])
+
+  elif choice=='Herramientas de Startup':
+    for i in range(len(startup_tools)):
+          st.write(f"{[startup_tools.iloc[i][0]]}(%s)" % startup_tools.iloc[i][2])
+          st.caption(startup_tools.iloc[i][1])
+
+  elif choice=='Storyteller':
+    for i in range(len(storyteller)):
+          st.write(f"{[storyteller.iloc[i][0]]}(%s)" % storyteller.iloc[i][2])
+          st.caption(storyteller.iloc[i][1])
+
+  elif choice=='Resumen':
+    for i in range(len(summarizer)):
+          st.write(f"{[summarizer.iloc[i][0]]}(%s)" % summarizer.iloc[i][2])
+          st.caption(summarizer.iloc[i][1])
+
+  elif choice=='Texto para hablar':
+    for i in range(len(text_to_speech)):
+          st.write(f"{[text_to_speech.iloc[i][0]]}(%s)" % text_to_speech.iloc[i][2])
+          st.caption(text_to_speech.iloc[i][1])
+
+  elif choice=='Transcibir':
+    for i in range(len(transcriber)):
+          st.write(f"{[transcriber.iloc[i][0]]}(%s)" % transcriber.iloc[i][2])
+          st.caption(transcriber.iloc[i][1])
+
+  elif choice=='Edición de video':
+    for i in range(len(video_editing)):
+          st.write(f"{[video_editing.iloc[i][0]]}(%s)" % video_editing.iloc[i][2])
+          st.caption(video_editing.iloc[i][1])
+
+  elif choice=='Generador de video':
+    for i in range(len(video_generator)):
+          st.write(f"{[video_generator.iloc[i][0]]}(%s)" % video_generator.iloc[i][2])
+          st.caption(video_generator.iloc[i][1])
+
 @st.cache(allow_output_mutation=True)
 def Pageviews():
     return []
