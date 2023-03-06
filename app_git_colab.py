@@ -445,15 +445,5 @@ with st.sidebar:
           st.write(f"{[video_generator.iloc[i][0]]}(%s)" % video_generator.iloc[i][2])
           st.caption(video_generator.iloc[i][1])
 
-@st.cache(allow_output_mutation=True)
-def Pageviews():
-    return []
 
-pageviews=Pageviews()
-pageviews.append('dummy')
-
-try:
-    st.markdown('Page viewed = {} times.'.format(len(pageviews)))
-except ValueError:
-    st.markdown('Page viewed = {} times.'.format(1))
 
