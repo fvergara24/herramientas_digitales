@@ -21,7 +21,7 @@ text = text.lower()
 if text:
     mask = df['Descripcion'].str.contains(text)
     contador=0
-    for i in range(len(mask)): 
+    for i in range(len(mask)):
       if mask.loc[i]==False:
         contador+=1
     if contador==len(mask):
@@ -39,11 +39,11 @@ else:
     with col1:
       for i in range(len(df_columna1)):
         #original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2]</p>'
-        #st.markdown(original_title, unsafe_allow_html=True) 
+        #st.markdown(original_title, unsafe_allow_html=True)
         st.write(f"{[df_columna1.iloc[i][0]]}(%s)" % df_columna1.iloc[i][2])
         st.caption(df_columna1.iloc[i][1])
         #st.image(df_columna1.iloc[0][3], caption=df_columna1.iloc[0][3], use_column_width='auto')
-        
+
     with col2:
       for i in range(len(df_columna2)):
         st.write(f"{[df_columna2.iloc[i][0]]}(%s)" % df_columna2.iloc[i][2])
@@ -155,8 +155,8 @@ video_generator=video_generator.drop(columns='Unnamed: 0',axis=1)
 
 with st.sidebar:
   st.header('Categorias')
-  cate_opciones=["3D", 
-                "Arte", 
+  cate_opciones=["3D",
+                "Arte",
                 "Audio",
                 "Asistente de Código",
                 "Redacción",
@@ -203,13 +203,13 @@ with st.sidebar:
                 "Transcibir",
                 "Edición de video",
                 "Generador de video"]
-  
+
   choice = st.selectbox("",cate_opciones)
   if choice=='3D':
     for i in range(len(d3)):
           st.write(f"{[d3.iloc[i][0]]}(%s)" % d3.iloc[i][2])
           st.caption(d3.iloc[i][1])
-          
+
   elif choice=='Arte':
     for i in range(len(art)):
           st.write(f"{[art.iloc[i][0]]}(%s)" % art.iloc[i][2])
@@ -223,48 +223,48 @@ with st.sidebar:
   elif choice=='Asistente de Código':
     for i in range(len(code_assistant)):
           st.write(f"{[code_assistant.iloc[i][0]]}(%s)" % code_assistant.iloc[i][2])
-          st.caption(code_assistant.iloc[i][1])            
+          st.caption(code_assistant.iloc[i][1])
 
   elif choice=='Redacción':
     for i in range(len(copywriting)):
           st.write(f"{[copywriting.iloc[i][0]]}(%s)" % copywriting.iloc[i][2])
-          st.caption(copywriting.iloc[i][1]) 
+          st.caption(copywriting.iloc[i][1])
 
   elif choice=='Soporte al Cliente':
     for i in range(len(customer_support)):
           st.write(f"{[customer_support.iloc[i][0]]}(%s)" % customer_support.iloc[i][2])
-          st.caption(customer_support.iloc[i][1]) 
+          st.caption(customer_support.iloc[i][1])
 
   elif choice=='Asistente de Diseño':
     for i in range(len(design_assitant)):
           st.write(f"{[design_assitant.iloc[i][0]]}(%s)" % design_assitant.iloc[i][2])
-          st.caption(design_assitant.iloc[i][1]) 
+          st.caption(design_assitant.iloc[i][1])
 
   elif choice=='Herramientas de Desarrollador':
     for i in range(len(developer_tools)):
           st.write(f"{[developer_tools.iloc[i][0]]}(%s)" % developer_tools.iloc[i][2])
-          st.caption(developer_tools.iloc[i][1]) 
+          st.caption(developer_tools.iloc[i][1])
 
   elif choice=='Comercio Electrónico':
     for i in range(len(e_commerce)):
           st.write(f"{[e_commerce.iloc[i][0]]}(%s)" % e_commerce.iloc[i][2])
-          st.caption(e_commerce.iloc[i][1])         
+          st.caption(e_commerce.iloc[i][1])
 
   elif choice=='Educación':
     for i in range(len(education_asistant)):
           st.write(f"{[education_asistant.iloc[i][0]]}(%s)" % education_asistant.iloc[i][2])
-          st.caption(education_asistant.iloc[i][1]) 
-  
+          st.caption(education_asistant.iloc[i][1])
+
   elif choice=='Email':
     for i in range(len(email_assitant)):
           st.write(f"{[email_assitant.iloc[i][0]]}(%s)" % email_assitant.iloc[i][2])
-          st.caption(email_assitant.iloc[i][1]) 
-          
+          st.caption(email_assitant.iloc[i][1])
+
   elif choice=='Experimentos':
     for i in range(len(experiments)):
           st.write(f"{[experiments.iloc[i][0]]}(%s)" % experiments.iloc[i][2])
           st.caption(experiments.iloc[i][1])
-  
+
   elif choice=='Asistente de moda':
     for i in range(len(fashion_assistant)):
           st.write(f"{[fashion_assistant.iloc[i][0]]}(%s)" % fashion_assistant.iloc[i][2])
@@ -444,6 +444,3 @@ with st.sidebar:
     for i in range(len(video_generator)):
           st.write(f"{[video_generator.iloc[i][0]]}(%s)" % video_generator.iloc[i][2])
           st.caption(video_generator.iloc[i][1])
-
-
-
