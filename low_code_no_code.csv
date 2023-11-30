@@ -1,22 +1,32 @@
 ,Nombres,Descripcion,Pagina
-0,MarsAi,"Atención a todos los desarrolladores, empresarios y entusiastas de la tecnología: ¿Estás listo para revolucionar el mundo del desarrollo de software? Con Marsx, puede crear aplicaciones de alta calidad rápida y fácilmente, sin la necesidad de reinventar la rueda o pasar horas escribiendo código complejo. Nuestra plataforma de bajo código le permite concentrarse en los aspectos únicos de sus proyectos, mientras que nuestro modelo basado en suscripción proporciona acceso a todas las micro aplicaciones creadas por miles de desarrolladores.
-¡Pero eso no es todo! Al construir micro-aplicaciones y publicarlos en nuestro mercado, puede generar un flujo de ingresos sostenible y llevar su carrera al siguiente nivel. Con Marsx, puede crear microapps en lugar de construir otro SaaS con menos ajetreo y sin necesidad de comercializar, y ser pagado por miles de usuarios.
-¡Únase a nosotros y desbloquee el potencial de la tecnología de bajo código, las micro-aplicaciones y la productividad loca! 🚀",https://www.marsx.dev/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-1,Teachable Machine,"Teachable Machine es una herramienta basada en la web que hace que la creación de modelos de aprendizaje automático sea rápido, fácil y accesible para todos. Está destinado a ser utilizado por educadores, artistas, estudiantes, innovadores, creadores de todo tipo, realmente, cualquier persona que tenga una idea que quiera explorar. No se requiere conocimiento de aprendizaje automático previo.",https://teachablemachine.withgoogle.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-2,Visily AI,"Visily permite a los equipos con diversos fondos de diseño crear impresionantes estructuras y prototipos a velocidad de la luz. Con una amplia gama de características con IA, Visily también tiene plantillas prediseñadas, creación de prototipos y características de colaboración para hacer que el diseño de una experiencia fácil e intuitiva.",https://www.visily.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-3,MagicForm,Entrene a su propio vendedor de IA en menos de 3 minutos para generar confianza y aumentar las conversiones de su sitio en un 20% a través de conversaciones en tiempo real.,https://www.magicform.ai?utm_source=futurepedia
-4,Bardeen AI,"Bardeen usa AI para automatizar flujos de trabajo manuales, ahorrarle tiempo y potenciar su creatividad.
-Algunos ejemplos de automatizaciones incluyen:
-- Obtenga elementos de acción de la última reunión y agréguelos a la noción.
-- Resume cualquier sitio web y guárdelo a la noción.
-- Responda a una pregunta del contenido de la página actual.
-- Cree una imagen usando AI con Dall-E de OpenAI.",https://bardeen.ai/ai?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-5,Kinetix,La plataforma sin código para crear animaciones 3D de forma gratuita. Llévate al metaverso. No se requieren habilidades.,https://www.kinetix.tech/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-6,Liner.ai,Liner es una herramienta gratuita que le permite entrenar fácilmente sus modelos ML. Toma sus datos de entrenamiento y le brinda un modelo ML fácil de integrar. No se requiere codificación o experiencia en aprendizaje automático.,https://liner.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-7,Lobe,"El lóbulo lo ayuda a entrenar modelos de aprendizaje automático con una herramienta gratuita y fácil de usar. Solo muestra ejemplos de lo que desea que aprenda, y automáticamente entrena un modelo de aprendizaje automático personalizado que se puede enviar en su aplicación.",https://www.lobe.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-8,Neon AI,"Cree aplicaciones de voz de última generación con las tecnologías habilitadoras de Neon AI. El neón AI SDK integra la IA avanzada y la comprensión del lenguaje natural en una plataforma de ingeniería de software cohesiva. Piense en Amazon Alexa, Google Home, Apple Siri y Microsoft Cortana, con software gratuito de código abierto.
-También tienen un sistema operativo AI para Mycroft Mark II que figura en su sitio web.",https://neon.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-9,Dust,"Diseñar e implementar aplicaciones de modelos de idiomas grandes.
-Ingeniería rápida, reimaginada🔥
-Construido sobre años de experiencia trabajando con grandes modelos de idiomas.
-Con un objetivo, ayude a acelerar su despliegue.",https://dust.tt/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+0,Stackbear,Agregue un chatbot inteligente a su sitio web que pueda ayudar a responder preguntas comunes de sus visitantes,https://stackbear.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+1,MarsAi,Plataforma de bajo código para construir aplicaciones web y móviles,https://www.marsx.dev/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+2,Teachable Machine,Máquina de enseñanza: modelos ML rápidos y fáciles para todos,https://teachablemachine.withgoogle.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+3,MAGE,Generador de aplicaciones web GPT,https://usemage.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+4,Autotab,Agilice su flujo de trabajo con la automatización del navegador,https://www.autotab.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+5,Interacly AI,Diseñe y explore chatbots de IA interactivos.,https://interacly.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+6,MindStudio,Empodera a los usuarios para crear aplicaciones de IA personalizadas sin codificar.,https://youai.ai/mindstudio?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+7,Faraday,Faraday es una plataforma de predicción del cliente que utiliza IA para ayudar a las empresas a acelerar el crecimiento.,https://faraday.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+8,Aspen,Aspen es una plataforma de bajo código de IA que faculta a los desarrolladores para crear aplicaciones web generativas sin una codificación extensa.,https://www.getaspenai.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+9,Razzle,Razzle es una herramienta con IA que permite a los desarrolladores crear aplicaciones internas de manera rápida y fácil.,https://www.getrazzle.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+10,Landbot AI,Un constructor de no código para experiencias de conversación.,https://landbot.io/ai?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+11,Wetune,Contenido generado para la creación de aplicaciones sin código.,https://www.wetune.chat/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+12,Kindbuds,Construye un bot con bille de kiletos,https://www.kindbuds.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+13,AI Bot,Plataforma de chatbot para aplicaciones de mensajería.,https://www.aibot.how/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+14,Flippit,Avatares interactivos para experiencias virtuales.,https://www.flippit.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+15,No Code Family,"Plataforma de revisión de World 1st Dedicada al espacio sin código, impulsado por AI.",https://nocodefamily.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+16,Invicta AI,Creación de modelos de IA sin esfuerzo y compartir sin necesidad de codificación.,https://app.invictai.io/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+17,Autory.ai,Aumentar la productividad sin código y GPT-3,https://autory.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+18,Microapp AI,Reaccionar + componentes CSS de viento de cola generados con AI.,https://microapp.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+19,UiMagic,El viaje del texto al diseño web: elaboración de la plataforma digital perfecta,https://www.uimagic.io/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+20,Sttabot ,Convierta sus indicaciones en aplicaciones geniales de IA,https://sttabot.io/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+21,Unicorn Platform,"La última versión de IA de la Plataforma de Unicornio hace que el sitio web cree una brisa con sus funciones con AI. Desde impresionantes diseños de sitios web hasta personalización de contenido sin esfuerzo, tendrá un sitio web en funcionamiento en poco tiempo.",https://unicornplatform.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+22,Compo AI,Construir con flujo web 100x más rápido,https://www.compo.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+23,Bito,"Use la misma IA que ChatGPT, entrenada en miles de millones de líneas de código y documentos",https://bito.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+24,Visily AI,Diseñe impresionantes aplicaciones de aplicaciones a velocidad de luz,https://www.visily.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+25,Bardeen AI,Automatice los flujos de trabajo manuales con IA para ahorrar tiempo y liberar la creatividad.,https://bardeen.ai/ai?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+26,Kinetix,"Crea animaciones 3D gratis. Sin código, no se necesitan habilidades. Explore el metaverso.",https://www.kinetix.tech/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+27,Liner.ai,Herramienta gratuita para entrenar modelos ML fácilmente; No se requiere experiencia en codificación o ML.,https://liner.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+28,Lobe,Entrenar modelos ML fácilmente con lóbulo,https://www.lobe.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+29,Neon AI,"Crear aplicaciones de voz: Alexa, Google Home, Siri, Cortana y Mycroft Mark II.",https://neon.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+30,Dust,Ingeniero e implementa modelos de idiomas grandes más rápido e inteligente.,https://dust.tt/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia

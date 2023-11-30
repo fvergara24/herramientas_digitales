@@ -1,17 +1,73 @@
 ,Nombres,Descripcion,Pagina
-0,Scribble Diffusion,Puede dibujar algo y presionar el botón para convertirlo en una imagen refinada. También hay un video tutorial para ayudar a las personas a aprender a construir una aplicación similar.,https://scribblediffusion.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-1,Craiyon,¡Modelo AI Dibujo de imágenes de cualquier aviso!,https://www.craiyon.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-2,Pollinations,"Pollinations quiere diversificar la creatividad y difundirla a través de ecosistemas digitales. Ya sea en imagen, video o audio, invitamos a las personas a imaginar nuevos mundos con la ayuda de la IA.
-
-Para las empresas, nuestros desarrolladores escriben código sobre los últimos modelos de IA, que proporcionan resultados personalizados y estética específica.
-Con la API, la creación de IA se puede integrar directamente dentro de sitios web y plataformas de redes sociales.
-La creación se vuelve fácil, rápida y divertida.",https://pollinations.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-3,Stable Horde,"Un grupo distribuido de crowdsourcing de trabajadores de difusión estables.
-También proporciona una interfaz de cliente que no requiere instalación ni experiencia técnica",https://stablehorde.net/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-4,PicFinder,PicFinder es una herramienta de generación de imágenes. Se han generado más de 2M imágenes utilizándolo.,https://picfinder.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-5,Bright Eye,"Bright Eye es una aplicación AI multipropósito que tiene múltiples herramientas para satisfacer sus intereses en IA como usuario móvil. Entre sus herramientas se encuentran la generación de arte/imagen, generación de códigos, generación de ensayos y poemas, y extracción de texto y subtítulos de imágenes.",https://apps.apple.com/us/app/bright-eye/id1593932475?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-6,BlueWillow,"Una herramienta de texto de texto a imagen que se ejecuta en Discord, es similar a MidJourney. La IA genera fotos de calidad nítida después de recibir indicaciones de los usuarios.",https://www.bluewillow.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-7,Roll Art Die,"Establecidos en sus dispositivos Apple Silicon.
-Genere obras de arte AI usando solo texto. Haz realidad las obras de arte de tus sueños.
-No se requiere una suscripción en la nube.",https://www.roll-art-die.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
-8,Enterpix,Motor de búsqueda de imágenes generado por AI.,https://enterpix.app/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+0,ImageCreator,Un complemento de PS profesional alimentado por AI,https://imagecreator.alkaidvision.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+1,Typho,Plataforma de creación de retratos artísticos de IA,https://typho.onelink.me/baUB/4nuvs6vn?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+2,Top VS Best,Craft sin esfuerzo fascinante e imágenes exclusivas a través de nuestra generación de imágenes con IA.,https://topvsbest.com/aiimagecreator/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+3,Ipic.ai,IPIC.AI es un generador de imágenes AI gratuito que puede crear sin esfuerzo arte de IA único.,https://www.ipic.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+4,Ambience,Fondos de pantalla de IA,https://chrome.google.com/webstore/detail/ambience-ai-wallpapers-qu/ndgjbbjefciomenkpggaepmhbkhmapap?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+5,Wallpapers.fyi,Fondos de pantalla de AI es una herramienta única que utiliza tecnología de IA para generar fondos de pantalla impresionantes,https://www.wallpapers.fyi/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+6,Scribble Diffusion,Convierta su boceto en una imagen refinada usando AI,https://scribblediffusion.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+7,Bright Eye,"Aplicación multipropósito, todo en uno AI para generar texto, imagen, código, historia, poema y analizar la imagen y el texto, y mucho más.",https://apps.apple.com/us/app/bright-eye/id1593932475?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+8,Craiyon,Genere imágenes a partir de cualquier aviso,https://www.craiyon.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+9,Pollinations,"Crear, explorar y compartir contenido generado por IA con la API de Pollinations.",https://pollinations.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+10,Stable Horde,Clúster de crowdsourcing de trabajadores de difusión estables.,https://stablehorde.net/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+11,AI GIFs,Herramienta de generación GIF con AI,https://aigifs.vercel.app/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+12,Noiselith,Empoderando la generación de imágenes en el dispositivo,https://noiselith.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+13,Ideogram,Desatar tu creatividad con apoyo de ideas inteligentes,https://ideogram.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+14,Noteform,La aplicación Flashcard diseñada para optimizar el aprendizaje transformando notas en tarjetas interactivas.,https://noteform.lewiscarson.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+15,QRBTF AI,Generador de código QR con motor AI personalizable,https://qrbtf.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+16,Qreative AI,"Los códigos QR mejorados con AI, las empresas pueden crear códigos visualmente cautivadores y únicos que impulsan la participación de la audiencia, elevan las interacciones digitales y mejoran la presencia digital de su marca.",https://www.qreative.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+17,AI Portrait Generator,Transformar selfies ordinarios en impresionantes retratos de IA,https://www.ai-portraits.org/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+18,Zust QR,Permite a los usuarios crear códigos QR artísticos incorporando sus imágenes y indicaciones personalizadas.,https://qr.zust.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+19,Karlo,"Karlo, desarrollado por Kakao Brain, es una herramienta de generación de imágenes AI que faculta a los usuarios crear imágenes diversas e impresionantes basadas en sus descripciones de entrada.",https://karlo.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+20,Holovolo,Holovolo es una herramienta con IA que permite a los usuarios crear y explorar videos y fotos volumétricos VR180 VR180.,https://holovolo.tv/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+21,AIimag.es,Aiimag.es es un programa de Windows gratuito y fácil de usar que permite a los usuarios crear imágenes ilimitadas a partir de texto,https://aiimag.es/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+22,Thumbsnap,Thumbsnap es una plataforma gratuita de alojamiento de fotos y video impulsada por el algoritmo de difusión estable.,https://art.thumbsnap.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+23,AIArt.fm,AIART.FM es una colección en línea de imágenes generadas por la inteligencia artificial.,https://aiart.fm/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+24,Unfake.png,Unfake.png por Gaspard+Bruno es una herramienta con AI que convierte las imágenes falsas.png en verdaderos archivos .png sin fondo.,https://unfakepng.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+25,Re.Art,Re.Art es un generador de imágenes AI de alta calidad que utiliza tecnología de difusión estable.,https://reart.devvinay.in/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+26,Concept,Concept Studio es una innovadora herramienta creativa con motor AI que permite a los usuarios desatar su creatividad y transformar sus ideas en proyectos visualmente impresionantes,https://concept.st/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+27,Kartiv,Herramienta de diseño impulsada por IA para crear sin esfuerzo hermosas imágenes basadas en descripciones de los usuarios.,https://www.kartiv.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+28,Artimator,Artimator es una herramienta gratuita del generador de imágenes AI que permite a los usuarios crear ilustraciones visualmente impresionantes utilizando tecnología de inteligencia artificial.,https://artimator.io/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+29,Discord-diffusion,La difusión de discordia por estabilidad AI es un bot de discordia personalizable y fácil de instalar que permite a los usuarios generar imágenes a través de difusión estable en sus servidores de discordia.,https://autocode.com/stabilityai/templates/discord-diffusion/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+30,ELBO Art,Generación de imágenes de avatar.,https://art.elbo.ai/facets?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+31,Stable Diffussion Anime Prompter,Desatar tu creatividad,https://thecognitivequest.com/stable-diffusion-anime-prompt-generator/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+32,AISixteen,Imágenes generadas a partir de la entrada de texto.,https://aisixteen.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+33,Monster API,Imagen escalable y gen de texto para desarrolladores.,https://monsterapi.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+34,Genera.so,Iniciar aplicaciones de imágenes generativas en minutos,https://www.genera.so/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+35,QuarklQL,"Evalura las pruebas de API de la imagen, genera imágenes personalizadas.",https://www.quarkiql.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+36,Genly AI,Creación de imágenes a partir de la entrada descriptiva.,https://genly.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+37,NextML,Manipulación y generación de imágenes y videos.,https://stable-diffusion.nextml.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+38,Zizoto,Zizoto es una herramienta de generación de imágenes con IA que permite a los usuarios crear imágenes únicas en una red social colaborativa.,https://zizoto.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+39,Artificial Art,Generación de imágenes versátil con estilos definidos por el usuario.,https://artificial-art.eu/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+40,Zyng,Generación de imágenes promocionales sin habilidades de diseño.,https://www.zyngai.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+41,Dreamphilic,Creación y curación de contenido del sitio web.,https://dreamphilic.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+42,LeiaPix,Imagen a la animación 3D,https://convert.leiapix.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+43,Leap Touch,Edición de fotos mejorada con capacidades avanzadas.,https://www.leaptouch.app/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+44,Orbofi,Vender la plataforma de activos de medios virtuales.,https://www.orbofi.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+45,AI Input,Creación de imagen rápida basada en la entrada de texto.,https://aiinput.org/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+46,ControlMeme,Creación y intercambio de memes con control de difusión.,https://meme.koll.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+47,Xipher,Arte generativo exhibido.,https://xipher.space/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+48,MakePose,Cree caracteres personalizados a través de indicaciones y poses.,https://makepose.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+49,Aitubo,Imágenes de alta calidad para el diseño de juegos y la creatividad.,https://creator.aitubo.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+50,Shedevrum,Imágenes generadas a partir de descripciones de texto.,https://shedevrum.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+51,DeepFaceLab,El software líder para crear videos Deepfake de alta calidad con una interfaz fácil de usar.,https://github.com/iperov/DeepFaceLab?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+52,Image Maker,Generador de imágenes de difusión estable con más de 1000 estilos artísticos,https://clio.so/maker?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+53,ChilloutAI,Use la API de MidJourney para crear imágenes en el navegador de forma gratuita,https://chilloutai.xyz/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+54,Madison AI Pixel Magic,"Desata su creatividad con Madison Ai Pixel Magic, la herramienta avanzada de generación de imágenes.",https://madisonai.org/ai-tools?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+55,Free Unlimited Chat Bot,Chatbot gratuito ilimitado para la creación de imágenes y responder preguntas.,https://freeunlimitedchatbot.netlify.app/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+56,NMKD,Genere imágenes de IA en su GPU con una herramienta rica en funciones fácil de usar para Windows,https://nmkd.itch.io/t2i-gui?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+57,Patience,Crear arte con más de 30 modelos y estilos de IA,https://www.patience.ai/create?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+58,Diffusers,Modelos de vanguardia para generar imágenes a partir de una descripción de texto de lo que desea.,https://apps.apple.com/app/diffusers/id1666309574?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+59,Fantasy.ai,Generación de imágenes de IA basada en la nube con modelos exclusivos para imágenes de alta resolución.,https://fantasy.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+60,Dezgo,Generador de AI de difusión estable de texto a imagen gratuito,https://dezgo.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+61,Paint AI,Dibujo y crea imágenes de IA,https://www.origins.chat/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+62,Newtype AI,Obtenga su mashup de personajes de anime en un solo clic,https://newtype.ai/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+63,Iterate.World,"Descubra ideas visuales con iterado, un artista impulsado por la IA",https://iterate.world/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+64,Author of poems,Generar poemas con GPT,https://app.brancher.ai/f4801d3b-72e9-4b8b-a7a1-b83e46aba2fc?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+65,Amazing AI,Genere imágenes a partir de texto utilizando difusión estable localmente en su Mac,https://sindresorhus.com/amazing-ai?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+66,0xAi,Aviso de difusión estable y generador de imágenes,https://0xai.quest?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+67,InvokeAI,Kit de herramientas de difusión estable,https://github.com/invoke-ai/InvokeAI?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+68,Bing Image Creator,Crear imágenes a partir de palabras con AI,https://bing.com/create?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+69,Coloromo AI Art Generator,Imagen al arte,https://www.coloromo.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+70,Pagegenie,Convierta instantáneamente la idea de su producto en una página de destino,https://pagegenie.io?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
+71,MergeML,Generación de imágenes rápidas de Lightning,https://mergeml.com/?utm_source=futurepedia&utm_medium=marketplace&utm_campaign=futurepedia
